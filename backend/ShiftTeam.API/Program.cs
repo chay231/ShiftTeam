@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using ShiftTeam.Api.Data;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // CORS: разрешаем запросы от frontend во время локальной разработки.
@@ -21,6 +24,9 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddControllers();
+//Регистрация подключение к PostgreSQL
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
