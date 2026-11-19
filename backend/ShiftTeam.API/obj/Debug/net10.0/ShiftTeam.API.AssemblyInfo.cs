@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShiftTeam.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+961bbbd2a251e7e8665cb2e628734d6e10a811c8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2039681c6ebf24e7b9f58b72c0b170f384cad1ee")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShiftTeam.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShiftTeam.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
