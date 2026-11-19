@@ -7,9 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Include="models\.gitkeep" />
-    <Content Include="models\Instruction.cs" />
-    <Content Include="models\InstructionStep.cs" />
+    <Compile Include="wwwroot\models\Instruction.cs" />
+    <Compile Include="wwwroot\models\InstructionStep.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\models\.gitkeep" />
   </ItemGroup>
 
   <ItemGroup>

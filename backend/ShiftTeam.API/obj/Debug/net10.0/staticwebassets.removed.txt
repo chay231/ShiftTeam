@@ -1,3 +1,0 @@
-C:\Users\Admin\Documents\ПД 2026\ShiftTeam\backend\ShiftTeam.API\wwwroot\models\.gitkeep
-C:\Users\Admin\Documents\ПД 2026\ShiftTeam\backend\ShiftTeam.API\wwwroot\models\Instruction.cs
-C:\Users\Admin\Documents\ПД 2026\ShiftTeam\backend\ShiftTeam.API\wwwroot\models\InstructionStep.cs
